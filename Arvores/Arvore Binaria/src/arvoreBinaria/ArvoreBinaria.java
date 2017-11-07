@@ -7,7 +7,6 @@ public class ArvoreBinaria{
     public static void inserirNo(No raiz, No novoNo){
         if (novoNo.valor < raiz.valor){
             if (raiz.noEsquerdo == null){
-                    //novoNo.noPai = raiz;
                     raiz.noEsquerdo = novoNo;
                     System.out.printf("Valor %d inserido com sucesso\n", novoNo.valor);
             } else {
@@ -15,7 +14,6 @@ public class ArvoreBinaria{
             }
         } else if (novoNo.valor > raiz.valor){
             if (raiz.noDireito == null){
-                //novoNo.noPai = raiz;
                 raiz.noDireito = novoNo;
                 System.out.printf("Valor %d inserido com sucesso\n", novoNo.valor);
             } else {
