@@ -28,7 +28,7 @@ public class ArvoreBinaria{
     }
 
     public static No gerarNo(Random random, int tamanho){
-        No novoNo = new No(random.nextInt(tamanho*2));
+        No novoNo = new No(random.nextInt(100));
         return novoNo;
     }
 

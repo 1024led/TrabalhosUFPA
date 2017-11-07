@@ -1,4 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <java version="1.8.0_77" class="java.beans.XMLDecoder">
- <object class="arvoreBinaria.No"/>
+ <object class="arvoreBinaria.No">
+  <void property="noDireito">
+   <object class="arvoreBinaria.No">
+    <void property="noDireito">
+     <object class="arvoreBinaria.No">
+      <void property="noEsquerdo">
+       <object class="arvoreBinaria.No">
+        <void property="valor">
+         <int>78</int>
+        </void>
+       </object>
+      </void>
+      <void property="valor">
+       <int>99</int>
+      </void>
+     </object>
+    </void>
+    <void property="valor">
+     <int>51</int>
+    </void>
+   </object>
+  </void>
+  <void property="noEsquerdo">
+   <object class="arvoreBinaria.No">
+    <void property="noEsquerdo">
+     <object class="arvoreBinaria.No">
+      <void property="valor">
+       <int>32</int>
+      </void>
+     </object>
+    </void>
+    <void property="valor">
+     <int>34</int>
+    </void>
+   </object>
+  </void>
+  <void property="valor">
+   <int>38</int>
+  </void>
+ </object>
 </java>
