@@ -113,4 +113,8 @@ public class ArvoreBinaria{
         No raiz = new No(valor);
         return raiz;
     }
+    
+    public static void imprimirArvore(){
+        
+    }
 }
