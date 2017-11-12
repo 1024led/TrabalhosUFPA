@@ -4,55 +4,372 @@
   <void property="noDireito">
    <object class="arvoreBinaria.No" id="No1">
     <void property="noDireito">
-     <object class="arvoreBinaria.No">
-      <void property="noPai">
-       <object idref="No1"/>
-      </void>
-      <void property="valor">
-       <int>15</int>
-      </void>
-     </object>
-    </void>
-    <void property="noPai">
-     <object idref="No0"/>
-    </void>
-    <void property="valor">
-     <int>12</int>
-    </void>
-   </object>
-  </void>
-  <void property="noEsquerdo">
-   <object class="arvoreBinaria.No" id="No2">
-    <void property="noEsquerdo">
-     <object class="arvoreBinaria.No" id="No3">
-      <void property="noEsquerdo">
+     <object class="arvoreBinaria.No" id="No2">
+      <void property="noDireito">
        <object class="arvoreBinaria.No">
         <void property="noPai">
-         <object idref="No3"/>
+         <object idref="No2"/>
         </void>
         <void property="valor">
-         <int>2</int>
+         <int>99</int>
+        </void>
+       </object>
+      </void>
+      <void property="noEsquerdo">
+       <object class="arvoreBinaria.No" id="No3">
+        <void property="noEsquerdo">
+         <object class="arvoreBinaria.No" id="No4">
+          <void property="noDireito">
+           <object class="arvoreBinaria.No">
+            <void property="noPai">
+             <object idref="No4"/>
+            </void>
+            <void property="valor">
+             <int>93</int>
+            </void>
+           </object>
+          </void>
+          <void property="noEsquerdo">
+           <object class="arvoreBinaria.No">
+            <void property="noPai">
+             <object idref="No4"/>
+            </void>
+            <void property="valor">
+             <int>88</int>
+            </void>
+           </object>
+          </void>
+          <void property="noPai">
+           <object idref="No3"/>
+          </void>
+          <void property="valor">
+           <int>92</int>
+          </void>
+         </object>
+        </void>
+        <void property="noPai">
+         <object idref="No2"/>
+        </void>
+        <void property="valor">
+         <int>95</int>
         </void>
        </object>
       </void>
       <void property="noPai">
-       <object idref="No2"/>
+       <object idref="No1"/>
       </void>
       <void property="valor">
-       <int>3</int>
+       <int>97</int>
+      </void>
+     </object>
+    </void>
+    <void property="noEsquerdo">
+     <object class="arvoreBinaria.No" id="No5">
+      <void property="noDireito">
+       <object class="arvoreBinaria.No">
+        <void property="noPai">
+         <object idref="No5"/>
+        </void>
+        <void property="valor">
+         <int>83</int>
+        </void>
+       </object>
+      </void>
+      <void property="noEsquerdo">
+       <object class="arvoreBinaria.No" id="No6">
+        <void property="noEsquerdo">
+         <object class="arvoreBinaria.No" id="No7">
+          <void property="noDireito">
+           <object class="arvoreBinaria.No" id="No8">
+            <void property="noDireito">
+             <object class="arvoreBinaria.No" id="No9">
+              <void property="noDireito">
+               <object class="arvoreBinaria.No">
+                <void property="noPai">
+                 <object idref="No9"/>
+                </void>
+                <void property="valor">
+                 <int>78</int>
+                </void>
+               </object>
+              </void>
+              <void property="noPai">
+               <object idref="No8"/>
+              </void>
+              <void property="valor">
+               <int>77</int>
+              </void>
+             </object>
+            </void>
+            <void property="noEsquerdo">
+             <object class="arvoreBinaria.No" id="No10">
+              <void property="noDireito">
+               <object class="arvoreBinaria.No" id="No11">
+                <void property="noEsquerdo">
+                 <object class="arvoreBinaria.No">
+                  <void property="noPai">
+                   <object idref="No11"/>
+                  </void>
+                  <void property="valor">
+                   <int>72</int>
+                  </void>
+                 </object>
+                </void>
+                <void property="noPai">
+                 <object idref="No10"/>
+                </void>
+                <void property="valor">
+                 <int>73</int>
+                </void>
+               </object>
+              </void>
+              <void property="noEsquerdo">
+               <object class="arvoreBinaria.No" id="No12">
+                <void property="noEsquerdo">
+                 <object class="arvoreBinaria.No">
+                  <void property="noPai">
+                   <object idref="No12"/>
+                  </void>
+                  <void property="valor">
+                   <int>59</int>
+                  </void>
+                 </object>
+                </void>
+                <void property="noPai">
+                 <object idref="No10"/>
+                </void>
+                <void property="valor">
+                 <int>61</int>
+                </void>
+               </object>
+              </void>
+              <void property="noPai">
+               <object idref="No8"/>
+              </void>
+              <void property="valor">
+               <int>65</int>
+              </void>
+             </object>
+            </void>
+            <void property="noPai">
+             <object idref="No7"/>
+            </void>
+            <void property="valor">
+             <int>75</int>
+            </void>
+           </object>
+          </void>
+          <void property="noPai">
+           <object idref="No6"/>
+          </void>
+          <void property="valor">
+           <int>57</int>
+          </void>
+         </object>
+        </void>
+        <void property="noPai">
+         <object idref="No5"/>
+        </void>
+        <void property="valor">
+         <int>80</int>
+        </void>
+       </object>
+      </void>
+      <void property="noPai">
+       <object idref="No1"/>
+      </void>
+      <void property="valor">
+       <int>81</int>
       </void>
      </object>
     </void>
     <void property="noPai">
-     <object idref="No0"/>
+     <object class="arvoreBinaria.No" id="No13">
+      <void property="noDireito">
+       <object idref="No1"/>
+      </void>
+      <void property="noEsquerdo">
+       <object class="arvoreBinaria.No" id="No14">
+        <void property="noDireito">
+         <object class="arvoreBinaria.No" id="No15">
+          <void property="noDireito">
+           <object class="arvoreBinaria.No" id="No16">
+            <void property="noDireito">
+             <object class="arvoreBinaria.No" id="No17">
+              <void property="noDireito">
+               <object class="arvoreBinaria.No">
+                <void property="noPai">
+                 <object idref="No17"/>
+                </void>
+                <void property="valor">
+                 <int>36</int>
+                </void>
+               </object>
+              </void>
+              <void property="noEsquerdo">
+               <object class="arvoreBinaria.No" id="No18">
+                <void property="noDireito">
+                 <object class="arvoreBinaria.No" id="No19">
+                  <void property="noDireito">
+                   <object class="arvoreBinaria.No" id="No20">
+                    <void property="noDireito">
+                     <object class="arvoreBinaria.No">
+                      <void property="noPai">
+                       <object idref="No20"/>
+                      </void>
+                      <void property="valor">
+                       <int>29</int>
+                      </void>
+                     </object>
+                    </void>
+                    <void property="noPai">
+                     <object idref="No19"/>
+                    </void>
+                    <void property="valor">
+                     <int>27</int>
+                    </void>
+                   </object>
+                  </void>
+                  <void property="noPai">
+                   <object idref="No18"/>
+                  </void>
+                  <void property="valor">
+                   <int>26</int>
+                  </void>
+                 </object>
+                </void>
+                <void property="noEsquerdo">
+                 <object class="arvoreBinaria.No">
+                  <void property="noPai">
+                   <object idref="No18"/>
+                  </void>
+                  <void property="valor">
+                   <int>24</int>
+                  </void>
+                 </object>
+                </void>
+                <void property="noPai">
+                 <object idref="No17"/>
+                </void>
+                <void property="valor">
+                 <int>25</int>
+                </void>
+               </object>
+              </void>
+              <void property="noPai">
+               <object idref="No16"/>
+              </void>
+              <void property="valor">
+               <int>33</int>
+              </void>
+             </object>
+            </void>
+            <void property="noPai">
+             <object idref="No15"/>
+            </void>
+            <void property="valor">
+             <int>21</int>
+            </void>
+           </object>
+          </void>
+          <void property="noEsquerdo">
+           <object class="arvoreBinaria.No">
+            <void property="noPai">
+             <object idref="No15"/>
+            </void>
+            <void property="valor">
+             <int>17</int>
+            </void>
+           </object>
+          </void>
+          <void property="noPai">
+           <object idref="No14"/>
+          </void>
+          <void property="valor">
+           <int>18</int>
+          </void>
+         </object>
+        </void>
+        <void property="noEsquerdo">
+         <object class="arvoreBinaria.No" id="No21">
+          <void property="noDireito">
+           <object class="arvoreBinaria.No" id="No22">
+            <void property="noDireito">
+             <object class="arvoreBinaria.No">
+              <void property="noPai">
+               <object idref="No22"/>
+              </void>
+              <void property="valor">
+               <int>14</int>
+              </void>
+             </object>
+            </void>
+            <void property="noEsquerdo">
+             <object class="arvoreBinaria.No">
+              <void property="noPai">
+               <object idref="No22"/>
+              </void>
+              <void property="valor">
+               <int>8</int>
+              </void>
+             </object>
+            </void>
+            <void property="noPai">
+             <object idref="No21"/>
+            </void>
+            <void property="valor">
+             <int>12</int>
+            </void>
+           </object>
+          </void>
+          <void property="noEsquerdo">
+           <object class="arvoreBinaria.No" id="No23">
+            <void property="noDireito">
+             <object class="arvoreBinaria.No">
+              <void property="noPai">
+               <object idref="No23"/>
+              </void>
+              <void property="valor">
+               <int>6</int>
+              </void>
+             </object>
+            </void>
+            <void property="noPai">
+             <object idref="No21"/>
+            </void>
+           </object>
+          </void>
+          <void property="noPai">
+           <object idref="No14"/>
+          </void>
+          <void property="valor">
+           <int>7</int>
+          </void>
+         </object>
+        </void>
+        <void property="noPai">
+         <object idref="No13"/>
+        </void>
+        <void property="valor">
+         <int>15</int>
+        </void>
+       </object>
+      </void>
+      <void property="noPai">
+       <object idref="No0"/>
+      </void>
+      <void property="valor">
+       <int>38</int>
+      </void>
+     </object>
     </void>
     <void property="valor">
-     <int>5</int>
+     <int>86</int>
     </void>
    </object>
   </void>
   <void property="valor">
-   <int>10</int>
+   <int>50</int>
   </void>
  </object>
 </java>

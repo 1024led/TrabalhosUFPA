@@ -63,7 +63,7 @@ public class ArvoreBinaria{
                         no.noPai.noDireito = novoNo;
                     }                    
                 }
-                
+                System.out.printf("NO REMOVIDO COM SUCESSO - SUBSTITUIDO POR %d", novoNo.valor);
             } else {
                 if (no.valor < no.noPai.valor){
                     no.noPai.noEsquerdo = null;
@@ -71,8 +71,8 @@ public class ArvoreBinaria{
                     no.noPai.noDireito = null;
                 }
                 no.noPai = null;
+                System.out.println("NO REMOVIDO COM SUCESSO  - O NO NAO POSSUI FILHOS");
             }
-            System.out.println("NO REMOVIDO COM SUCESSO");
         } else {
             if (valor < no.valor && no.noEsquerdo != null){
                 removerNo(no.noEsquerdo, valor);
