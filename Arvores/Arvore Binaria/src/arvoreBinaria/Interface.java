@@ -54,10 +54,10 @@ public class Interface {
                     ArvoreBinaria.removerNo(arvore, aux);
                     break;
                 case 3:
-                    GerarXML.gerarXML(arvore);
+                    XML.gerarXML(arvore);
                     break;
                 case 4:
-                    System.out.println("TODO");
+                    arvore = XML.carregarXML();
                     break;
                 default:
                     System.out.println("ERRO: ENTRADA INVALIDA");
