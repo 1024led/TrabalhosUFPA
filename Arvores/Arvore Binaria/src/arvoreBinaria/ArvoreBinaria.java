@@ -56,10 +56,12 @@ public class ArvoreBinaria{
                 }
                 
                 //Vincular o pai do nó antigo ao novo nó
-                if (no.valor < no.noPai.valor){
-                    no.noPai.noEsquerdo = novoNo;
-                } else {
-                    no.noPai.noDireito = novoNo;
+                if (no.noPai != null){ //Raiz não possui nó pai
+                    if (no.valor < no.noPai.valor){
+                        no.noPai.noEsquerdo = novoNo;
+                    } else {
+                        no.noPai.noDireito = novoNo;
+                    }                    
                 }
                 
             } else {
