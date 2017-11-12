@@ -1,4 +1,4 @@
-package arvoreBinaria;
+package arvore;
 import java.util.Scanner;
 
 import java.util.ArrayList;

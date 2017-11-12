@@ -1,4 +1,4 @@
-package arvoreBinaria;
+package arvore;
 
 public class No{
     int valor;

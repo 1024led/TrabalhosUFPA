@@ -1,4 +1,4 @@
-package arvoreBinaria;
+package arvore;
 
 import java.beans.XMLEncoder;
 import java.beans.XMLDecoder;
