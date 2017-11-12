@@ -14,7 +14,9 @@ public class GerarXML{
             encoder.writeObject(raiz);
             encoder.close();
             fos.close();
+            System.out.println("XML GERADO COM SUCESSO");
         } catch (IOException ex) {
+            System.out.println("ERRO: GERACAO DO XML FALHOU - " + ex);
         }
     }
 }
