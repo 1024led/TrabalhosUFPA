@@ -4,6 +4,7 @@ public class No{
     int valor;
     No noEsquerdo = null;
     No noDireito = null;
+    No noPai = null;
 
     public No(int valor){
         this.valor = valor;
@@ -37,4 +38,11 @@ public class No{
         this.noDireito = noDireito;
     }
     
+    public void setNoPai(No noPai) {
+        this.noPai = noPai;
+    }
+    
+    public No getNoPai(){
+        return noPai;
+    }
 }

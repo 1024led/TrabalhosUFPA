@@ -1,43 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <java version="1.8.0_77" class="java.beans.XMLDecoder">
- <object class="arvoreBinaria.No">
+ <object class="arvoreBinaria.No" id="No0">
   <void property="noDireito">
-   <object class="arvoreBinaria.No">
+   <object class="arvoreBinaria.No" id="No1">
     <void property="noDireito">
      <object class="arvoreBinaria.No">
-      <void property="noEsquerdo">
-       <object class="arvoreBinaria.No">
-        <void property="valor">
-         <int>78</int>
-        </void>
-       </object>
+      <void property="noPai">
+       <object idref="No1"/>
       </void>
       <void property="valor">
-       <int>99</int>
+       <int>15</int>
       </void>
      </object>
     </void>
+    <void property="noPai">
+     <object idref="No0"/>
+    </void>
     <void property="valor">
-     <int>51</int>
+     <int>12</int>
     </void>
    </object>
   </void>
   <void property="noEsquerdo">
-   <object class="arvoreBinaria.No">
+   <object class="arvoreBinaria.No" id="No2">
     <void property="noEsquerdo">
-     <object class="arvoreBinaria.No">
+     <object class="arvoreBinaria.No" id="No3">
+      <void property="noEsquerdo">
+       <object class="arvoreBinaria.No">
+        <void property="noPai">
+         <object idref="No3"/>
+        </void>
+        <void property="valor">
+         <int>2</int>
+        </void>
+       </object>
+      </void>
+      <void property="noPai">
+       <object idref="No2"/>
+      </void>
       <void property="valor">
-       <int>32</int>
+       <int>3</int>
       </void>
      </object>
     </void>
+    <void property="noPai">
+     <object idref="No0"/>
+    </void>
     <void property="valor">
-     <int>34</int>
+     <int>5</int>
     </void>
    </object>
   </void>
   <void property="valor">
-   <int>38</int>
+   <int>10</int>
   </void>
  </object>
 </java>

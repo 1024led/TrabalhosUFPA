@@ -6,8 +6,7 @@ import java.io.IOException;
 import java.io.FileOutputStream;
 
 public class GerarXML{
-    public static void main(String[] args){
-        No raiz = ArvoreBinaria.gerarArvore();
+    public static void gerarXML(No raiz){
         
         try {
             FileOutputStream fos = new FileOutputStream(new File("./arvore.xml"));

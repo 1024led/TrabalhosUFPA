@@ -4,11 +4,9 @@ import java.util.Scanner;
 import java.util.ArrayList;
 
 public class SistemaDeBusca{
-    public static void buscarValor(){
+    public static void buscarValor(No raiz){
         Scanner scanner = new Scanner(System.in);
         ArrayList caminho = new ArrayList<>();
-        
-        No raiz = ArvoreBinaria.gerarArvore();
         
         System.out.print("\nInsira o valor a ser buscado: ");
         caminho = buscar(scanner.nextInt(), raiz, caminho);
